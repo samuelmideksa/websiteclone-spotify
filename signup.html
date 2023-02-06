@@ -8,6 +8,64 @@
     <link rel="icon" type="image/x-icon" href="./images/spotify icon b.png">
 </head>
 <body>
+    <a href="index.html">
+        <img src="images/spotify logo b.png" alt="Spotify">
+    </a>
     
+    <h1>Sign up for free to start listening.</h1>
+    
+    <a
+        href="https://www.facebook.com/login.php?skip_api_login=1&api_key=174829003346&kid_directed_site=0&app_id=174829003346&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fv7.0%2Fdialog%2Foauth%3Fclient_id%3D174829003346%26state%3DAQALiD%252BsK4BZDVWxniAXpMeLksv1rAkURv%252BwrR2l7vnfbf8qPwxeG%252FSw%252BFkd7%252Bz7qdm%252Ba2%252FxqTU0cAe3VzHwRkBVIvHzLmSYdndtCUB4hyLcZIU0C%252BYuD8pFIDFalF5N9IoQBclR9alnp5ZVUZkCP%252BzPoFK0%252BAB9R5tWa%252BXwmGAorXwjGzX4s2yMkiMK3I1c8eToEhQygoQt19vrAQIXa%252Fzi%252FgBlx6cjPpg%253D%26redirect_uri%3Dhttps%253A%252F%252Faccounts.spotify.com%252Flogin%252Ffacebook%252Fredirect%252Fsignup%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D347bd751-c154-4a6b-bc33-17dafaf9b839%26tp%3Dunspecified&cancel_url=https%3A%2F%2Faccounts.spotify.com%2Flogin%2Ffacebook%2Fredirect%2Fsignup%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3DAQALiD%252BsK4BZDVWxniAXpMeLksv1rAkURv%252BwrR2l7vnfbf8qPwxeG%252FSw%252BFkd7%252Bz7qdm%252Ba2%252FxqTU0cAe3VzHwRkBVIvHzLmSYdndtCUB4hyLcZIU0C%252BYuD8pFIDFalF5N9IoQBclR9alnp5ZVUZkCP%252BzPoFK0%252BAB9R5tWa%252BXwmGAorXwjGzX4s2yMkiMK3I1c8eToEhQygoQt19vrAQIXa%252Fzi%252FgBlx6cjPpg%253D%23_%3D_&display=page&locale=en_GB&pl_dbl=0">
+        <button type="button">
+            <img src="images/facebook icon.png">
+            Sign up with Facebook
+        </button>
+    </a>
+    <a
+        href="https://accounts.google.com/o/oauth2/v2/auth/identifier?response_type=code&access_type=offline&client_id=1046568431490-ij1gi5shcp2gtorls09frkc56d4mjbe2.apps.googleusercontent.com&state=AQCq5Fna9Z6%2FWHZwLgEsHGcDg%2FAxwPU3BrhgVcaibaXpaKMFzzAZtR5FIshadkcDuD3H%2BNAxfqwNi9rq8%2FEin25SCcBKEnLc0CAw3FXUygqhTXF%2BJzdRuA8A8y0zDLPe5dmuBYi5DOTVs%2BQCAU02C51Alb8FACiTFBWU%2FRCqMUFdKwfOGKjmI2OO%2F89NjkNlv1ZH49KjBLCDoYFAM%2FIWkym93iCcS5QQbcM%3D&scope=profile%20email%20openid&redirect_uri=https%3A%2F%2Faccounts.spotify.com%2Flogin%2Fgoogle%2Fredirect%2Fsignup&service=lso&o2v=2&flowName=GeneralOAuthFlow">
+        <button type="button">
+            <img src="/images/google icon.png">
+            Sign up with Google
+        </button>
+    </a>
+
+    <hr> or <hr>
+
+    <h4>Sign up with your email address</h4>
+
+    <form action="" method="post">
+        <label for="email" >What's your email?</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email"> <br>
+        <label for="emailconf" name="email">Confirm your email</label>
+        <input type="email" id="emailconf" autocomplete="off" placeholder="Enter your email agian."> <br>
+        <label for="pass">Create a password</label>
+        <input type="password" id="pass" name="password" placeholder="Create a password."> <br>
+        <label for="profname">What should we call you?</label>
+        <input type="text" id="profname" name="profilename" placeholder="Enter a profile name."> <br>
+        <p>This appears on your profile.</p>
+        <label for="dob">What is your date of birth?</label>
+        <input type="date" name="dob" id="dob">
+        <p for="gender">What is your gender</p>
+        <input type="radio" id="gender" name="gender">
+        <label for="gender">Male</label>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Male</label>
+        <input type="radio" id="undisclosed" name="gender" value="Undisclosed">
+        <label for="undisclosed">Prefer not to say</label> <br>
+        
+        <input type="checkbox" name="markconsent" id="markconsent" value="prefer not">
+        <label for="markconsent">I world prefer not to revieve marketing messages from spotify.</label> <br>
+        <input type="checkbox" name="privconsent" id="privconsent" value="Share">
+        <label for="privconsent">Share my registration data with Spotify's content providers for marketing purposes.</label>
+        <br>
+        <p>By clicking on sign-up, you agree to Spotify's <a href="#">Terms and Conditions of Use</a>.</p>
+        <p>To learn more about how Spotify collects, uses, shares and protects your personal data, please see <a href="#">Spotify's Privacy
+        Policy</a>.</p>
+
+        <button type="submit">Sign up</button>
+    </form>
+    <p>Have an account? <a href="login.html">Log in.</a></p>
 </body>
 </html>
