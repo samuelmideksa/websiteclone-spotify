@@ -1,0 +1,199 @@
+/* style sheet for login and signup pages */
+
+body {
+    background-color: white;
+    font-family: 'Circular Spotify Text', sans-serif;
+}
+
+.main #logo {
+    width: 40%;
+    margin: 0 auto;
+}
+.main #logo img {
+    width: 135px;
+    margin: auto;
+}
+.main {
+    margin: 0 auto;
+    width: 540px;
+}
+.main {
+  padding: 0 20px;
+}
+
+/* Adjust padding for larger screens */
+@media screen and (min-width: 768px) {
+  .main {
+    padding: 0 40px;
+  }
+}
+
+/* Adjust padding for even larger screens */
+@media screen and (min-width: 1024px) {
+  .container {
+    padding: 0 60px;
+  }
+}
+
+button {
+    width: 90%;
+    font-size: 17px;
+    font-weight: bolder;
+    border-radius: 50px;
+    padding: 15px;
+    margin: 5px 5%;
+    text-align: center;
+}
+
+h1,
+h3,
+h4 {
+    text-align: center;
+}
+
+#fb {
+    background-color: dodgerblue;
+    color: white;
+    border: 1px solid dodgerblue;
+    background-image: url('./images/facebook\ icon.png');
+    background-position: 20% 15px;
+    background-size: 25px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+
+}
+
+#ap {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    background-image: url('./images/apple\ icon.svg');
+    background-position: 20% 15px;
+    background-size: 25px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+
+
+}
+
+#go {
+    background-color: white;
+    color: rgb(60, 60, 56);
+    border: 1px solid black;
+    background-image: url('./images/google\ icon.png');
+    background-position: 20% 17px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+
+}
+
+#fbb {
+    background-color: rgb(15, 82, 149);
+    color: white;
+    border: 1px solid rgb(15, 82, 149);
+    background-image: url('./images/facebook\ icon.svg');
+    background-position: 20% 15px;
+    background-size: 25px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+
+}
+#goo {
+    background-color: white;
+    color: rgb(60, 60, 56);
+    border: 1px solid black;
+    background-image: url('./images/google\ icon.png');
+    background-position: 20% 17px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+
+}
+
+button:hover {
+    inherits: inherit;
+    border: 2px solid black;
+}
+
+label,
+.main p {
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.main p {
+    text-align: center;
+}
+
+input[type=text],
+input[type=email],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 7px 0 20px 0;
+    box-sizing: border-box;
+    border: 2px solid grey;
+    border-radius: 5px;
+    outline: none;
+}
+
+input[type=text],
+input[type=password] ::placeholder {
+    font-size: 15px;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    border: 4px solid black;
+}
+
+#li {
+    width: 30%;
+    float: right;
+    background-color: rgb(41, 186, 41);
+    font-size: 20px;
+    color: black;
+    border: 1px solid rgb(41, 186, 41);
+    border-radius: 50px;
+    padding: 10px;
+    margin: 5px 30px;
+    text-align: center;
+}
+#submit {
+    width: 30%;
+    margin: auto;
+}
+#su {
+    background-color: rgb(41, 186, 41);
+    font-size: 20px;
+    color: black;
+    border: 1px solid rgb(41, 186, 41);
+    border-radius: 50px;
+    padding: 10px;
+    margin: 5 auto;
+}
+#su:hover {
+    font-size: 130%;
+    width: 105%;
+    height: 105%;
+}
+
+#terms p {
+    font-size: x-small;
+    font-weight: lighter;
+    color: black;
+}
+
+a,
+#terms a:link,
+#terms a:visited,
+#terms a:active {
+    color: rgb(41, 186, 41);
+}
+
+a:hover,
+#terms a:hover {
+    color: rgb(121, 230, 121);
+}
+
