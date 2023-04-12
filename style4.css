@@ -1,0 +1,367 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Circular Spotify Text', sans-serif;
+    margin: 0;
+}
+.main {
+    background-color: black;
+    margin: 0;
+    padding: 0 5px;
+}
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #101010;
+    padding: 14px 30px;
+}
+.topbar .logo img {
+    width: 130px;
+}
+.topbar .navbar {
+    display: flex;
+    align-items: center;
+}
+
+.topbar .navbar ul {
+    list-style: none;
+}
+
+.topbar .navbar ul li {
+    display: inline-block;
+    margin: 0px 8px;
+    width: 70px;
+}
+
+.topbar .navbar ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.topbar .navbar ul li a:hover,
+.topbar .navbar ul li a:active,
+.topbar .navbar ul li a:focus {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.topbar .navbar ul li.divider {
+    color: #ffffff;
+    font-size: 26px;
+    margin: 0px 20px;
+    width: auto;
+}
+
+.section1 {
+    width: 700px;
+    margin: 30px auto;
+    color: white;
+}
+.section1 {
+    padding: 0 10px;
+}
+
+/* Adjust padding for larger screens */
+@media screen and (min-width: 768px) {
+    .section1 {
+        padding: 0 40px;
+    }
+}
+
+/* Adjust padding for even larger screens */
+@media screen and (min-width: 1024px) {
+    .section1 {
+        padding: 0 60px;
+        margin-bottom: 0;
+    }
+}
+.section1 h5 {
+    color: #b3b3b3;
+    font-weight: lighter;
+    font-size: 15px;
+}
+.section1 h1 {
+    margin: 8px 0 35px;
+    font-size: 70px;
+}
+.section1 h5 {
+    color: #b3b3b3;
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 0 0 35px
+}
+.main .section1 #li a:link,
+.main .section1 #li a:active,
+.main .section1 #li a:visited{
+    color: white;
+}
+
+.section1 input[type=text] {
+    font-size: larger;
+    background-image: url('./images/support/search.png');
+    background-position: 15px 10px;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    padding: 15px 55px;
+    width: 95%;
+    margin: 7px 0 20px 0;
+    box-sizing: border-box;
+    border: 2px solid grey;
+    border-radius: 5px;
+    outline: none;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap ;
+}
+
+.item {
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+.payment-help {
+    background-image: url('./images/support/payment help.png');
+}
+
+.plan-help {
+    background-image: url('./images/support/plan help.png');
+}
+
+.application-help {
+    background-image: url('./images/support/app help.png');
+}
+
+.device-help {
+    background-image: url('./images/support/device help.png');
+}
+
+.safety-and-privacy {
+    background-image: url('./images/support/safety and privacy.png');
+}
+
+.account-help {
+    background-image: url('./images/support/account help.png');
+}
+.item a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 10% 10px 30px 10%;
+    color: #fff;
+    text-align: left;
+    text-decoration: none;
+    font-size: 120%;
+    font-weight: bolder;
+}
+
+.main2 {
+    background-color: rgb(27, 26, 26);
+    margin: 0;
+    padding: 30px;
+    color: white;
+}
+.section2 {
+    width: 700px;
+    margin: 30px auto;
+    color: white;
+    text-align: center;
+}
+
+.section2 {
+    padding: 0 10px;
+}
+
+/* Adjusted padding for larger screens */
+@media screen and (min-width: 768px) {
+    .section2 {
+        padding: 0 40px;
+    }
+}
+/* Adjusted padding for even larger screens */
+@media screen and (min-width: 1024px) {
+    .section2 {
+        padding: 0 60px;
+        margin-bottom: 0;
+    }
+}
+.section2 h1, p {
+    padding: 20px;
+}
+
+.section2 button {
+    width: 30%;
+    margin: auto;
+    background-color: rgb(41, 186, 41);
+    font-size: 20px;
+    color: black;
+    border: 1px solid rgb(41, 186, 41);
+    border-radius: 50px;
+    padding: 10px;
+    margin: 5 auto;
+}
+
+
+.section2 button:hover {
+    font-size: 130%;
+    width: 33%;
+    height: 33%;
+}
+
+#footer {
+    background-color: black;
+    color: grey;
+    padding: 50px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+}
+#footer li {
+    list-style-type: none;
+    line-height: 2;
+}
+
+#f1 {
+    width: 200px;
+}
+
+#f1 img {
+    width: 150px;
+    height: auto;
+}
+
+#f2,
+#f3,
+#f4,
+#f5,
+#f6 {
+    width: calc(20% - 20px);
+    margin-top: 20px;
+}
+
+#f5 ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#f5 li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#f5 li:last-child {
+    margin-right: 0;
+}
+
+#f5 a {
+    color: #fff;
+}
+
+#f5 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: white;
+}
+#f5 img:hover {
+    background-color: rgb(30, 248, 6);
+}
+#f6 {
+    margin: 0 10px;
+    float: left;
+}
+
+#f6 ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#f6 li a {
+    margin-bottom: 10px;
+    color: grey;
+    font-size: smaller;
+    padding: 0 20px;
+}
+
+#f7 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0 50px 0 50px;
+}
+
+#f7 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#f7 li {
+    margin-bottom: 0px;
+}
+
+#f2 a:link,
+#f2 a:active,
+#f2 a:visited,
+#f3 a:link,
+#f3 a:active,
+#f3 a:visited,
+#f4 a:link,
+#f4 a:active,
+#f4 a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+#f6 a:link,
+#f6 a:active,
+#f6 a:visited{
+    text-decoration: none;
+}
+#footer a:hover {
+    color: rgb(30, 248, 6);
+}
+
+#f7 img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+
+/* Adjust padding for even larger screens */
+@media screen and (max-width: 900px) {
+    #footer {
+        display:block;
+        flex-wrap:nowrap;
+    }
+    #f7 {
+        position: unset;
+        margin-top: 30px;
+    }
+    #f5 {
+        margin-left: 50px;
+        padding-left: 50px;
+    }
+}
