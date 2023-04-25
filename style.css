@@ -47,6 +47,15 @@ body {
     color: #ffffff;
 }
 
+.navigation {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.gray-filtered {
+    filter: invert(0.5) sepia(70) saturate(0) hue-rotate(0deg);
+}
 
 .sidebar .policies {
     position: absolute;
