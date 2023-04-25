@@ -164,7 +164,7 @@
                         <td>1</td>
                         <td class="song-title">
                             <div class="song-image">
-                                <a href="../Flowers.mp3"><img src="../images/playlists/piano.jpg"></a>
+                                <img id="album-art-1" src="../images/playlists/piano.jpg">
                             </div>
                             <div class="song-name-album">
                                 <div class="song-name">paeoner</div>
@@ -179,7 +179,7 @@
                         <td>2</td>
                         <td class="song-title">
                             <div class="song-image">
-                                <a href="../Flowers.mp3"><img src="../images/playlists/piano.jpg"></a>
+                                <a href="../Flowers.mp3"><img id="album-art-2" src="../images/playlists/piano.jpg"></a>
                             </div>
                             <div class="song-name-album">
                                 <div class="song-name"> Quand vous souriez</div>
@@ -194,7 +194,7 @@
                         <td>3</td>
                         <td class="song-title">
                             <div class="song-image">
-                                <a href="../Flowers.mp3"><img src="../images/playlists/piano.jpg"></a>
+                                <a href="../Flowers.mp3"><img id="album-art-3" src="../images/playlists/piano.jpg"></a>
                             </div>
                             <div class="song-name-album">
                                 <div class="song-name">Saying Things</div>
@@ -209,7 +209,7 @@
                         <td>4</td>
                         <td class="song-title">
                             <div class="song-image">
-                                <a href="../Flowers.mp3"><img src="../images/playlists/piano.jpg"></a>
+                                <a href="../Flowers.mp3"><img id="album-art-4" src="../images/playlists/piano.jpg"></a>
                             </div>
                             <div class="song-name-album">
                                 <div class="song-name">Morning Dance</div>
@@ -224,7 +224,7 @@
                         <td>5</td>
                         <td class="song-title">
                             <div class="song-image">
-                                <a href="../Flowers.mp3"><img src="../images/playlists/piano.jpg"></a>
+                                <a href="../Flowers.mp3"><img id="album-art-5" src="../images/playlists/piano.jpg"></a>
                             </div>
                             <div class="song-name-album">
                                 <div class="song-name"> Amor Eterno</div>
@@ -239,7 +239,7 @@
                         <td>6</td>
                         <td class="song-title">
                             <div class="song-image">
-                                <a href="../Flowers.mp3"><img src="../images/playlists/piano.jpg"></a>
+                                <a href="../Flowers.mp3"><img id="album-art-6" src="../images/playlists/piano.jpg"></a>
                             </div>
                             <div class="song-name-album">
                                 <div class="song-name"> Ma sestra</div>
@@ -254,7 +254,7 @@
                         <td>7</td>
                         <td class="song-title">
                             <div class="song-image">
-                                <a href="../Flowers.mp3"><img src="../images/playlists/piano.jpg"></a>
+                                <a href="../Flowers.mp3"><img id="album-art-7" src="../images/playlists/piano.jpg"></a>
                             </div>
                             <div class="song-name-album">
                                 <div class="song-name">Entangled</div>
@@ -269,7 +269,7 @@
                         <td>8</td>
                         <td class="song-title">
                             <div class="song-image">
-                                <a href="../Flowers.mp3"><img src="../images/playlists/piano.jpg"></a>
+                                <a href="../Flowers.mp3"><img id="album-art-8" src="../images/playlists/piano.jpg"></a>
                             </div>
                             <div class="song-name-album">
                                 <div class="song-name">Peaceful Thoughts</div>
@@ -284,7 +284,7 @@
                         <td>9</td>
                         <td class="song-title">
                             <div class="song-image">
-                                <a href="../Flowers.mp3"><img src="../images/playlists/piano.jpg"></a>
+                                <a href="../Flowers.mp3"><img id="album-art-9" src="../images/playlists/piano.jpg"></a>
                             </div>
                             <div class="song-name-album">
                                 <div class="song-name">Open to return</div>
@@ -300,7 +300,7 @@
                         <td class="song-title">
                             <div class="song-image">
                                 <div class="song-artist"></div>
-                                <a href="../Flowers.mp3"><img src="../images/playlists/piano.jpg"></a>
+                                <a href="../Flowers.mp3"><img id="album-art-10" src="../images/playlists/piano.jpg"></a>
                             </div>
                             <div class="song-name-album">
                                 <div class="song-name">Lyrides</div>
@@ -317,6 +317,35 @@
             </div>
         </div>
     </div>
+
+    <!--player-->
+    <div id="player">
+        <div id="player-container">
+            <img id="player-album-art" src="">
+            <div id="player-song-info">
+                <p id="player-artist"></p>
+                <p id="player-song"></p>
+            </div>
+            <div id="controllers">
+                
+                <div id="player-controls">
+                    <button id="player-prev"><img class="gray-filtered" src="../images/player/Previous.svg" alt=""></button>
+                    <button id="player-play">
+                        <img src="../images/player/play.svg" alt="" class="player-icon player-icon-play">
+                        <img src="../images/player/pause.svg" alt="" class="player-icon player-icon-pause">
+                    </button>
+                    <button id="player-next"><img class="gray-filtered" src="../images/player/Next.svg" alt=""></button>
+                </div>
+                <div id="player-volume">
+                    <input type="range" min="0" max="100" value="100" class="player-volume-slider">
+                </div>
+            </div>
+        </div>
+        <audio id="player-audio" preload="auto"></audio>
+    </div>
+    <script src="script.js"></script>
+
+    <script src="playerscript.js"></script>
 </body>
 
 </html>
