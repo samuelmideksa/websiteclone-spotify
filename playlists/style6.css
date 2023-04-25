@@ -47,7 +47,6 @@ body {
 .gray-filtered {
     filter: invert(0.5) sepia(70) saturate(0) hue-rotate(0deg);
 }
-/* styling for fa remaining */
 
 .sidebar1 .policies1 {
     position: absolute;
@@ -84,7 +83,6 @@ body {
 }
 .topbar1 .previous-next-buttons button {
     color: #7a7a7a;
-    cursor: not-allowed;
     width: 34px;
     height: 34px;
     border-radius: 100%;
