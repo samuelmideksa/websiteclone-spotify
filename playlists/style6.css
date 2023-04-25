@@ -1,0 +1,290 @@
+/* style sheet for playlists*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #121212;
+    font-family: 'Circular Spotify Text', sans-serif;
+}
+.sidebar1 {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 196px;
+    background-color: #000000;
+    padding: 24px;
+}
+.sidebar1 .logo img {
+    width: 130px;
+}
+.sidebar1 .navigation1 ul {
+    list-style: none;
+    margin-top: 20px;
+}
+.sidebar1 .navigation1 ul li {
+    padding: 10px 0px;
+}
+.sidebar1 .navigation1 ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+}
+.sidebar1 .navigation1 ul li a:hover,
+.sidebar1 .navigation1 ul li a:active,
+.sidebar1 .navigation1 ul li a:focus {
+    color: #ffffff;
+}
+
+.navigation1 {
+    display: flex;
+    flex-direction: row;
+
+}
+.gray-filtered {
+    filter: invert(0.5) sepia(70) saturate(0) hue-rotate(0deg);
+}
+/* styling for fa remaining */
+
+.sidebar1 .policies1 {
+    position: absolute;
+    bottom: 100px;
+}
+.sidebar1 .policies1 ul {
+    padding-bottom: 5px;
+}
+.sidebar1 .policies1 ul li {
+    padding-bottom: 5px;
+}
+.sidebar1 .policies1 ul li a {
+    color: #b3b3b3;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.sidebar1 .policies1 ul li a:hover,
+.sidebar1 .policies1 ul li a:active,
+.sidebar1 .policies1 ul li a:focus {
+    text-decoration: underline;
+}
+
+.main-container1 {
+    margin-left: 245px;
+    margin-bottom: 100px;
+}
+.topbar1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #101010;
+    padding: 14px 30px;
+}
+.topbar1 .previous-next-buttons1 button {
+    color: #7a7a7a;
+    cursor: not-allowed;
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    font-size: 18px;
+    background-color: #090909;
+    margin-right: 10px;
+}
+.topbar1 .navbar1 {
+    display: flex;
+    align-items: center;
+}
+
+.topbar1 .navbar1 ul {
+    list-style: none;
+}
+
+.topbar1 .navbar1 ul li {
+    display: inline-block;
+    margin: 0px 8px;
+    width: 70px;
+}
+
+.topbar1 .navbar1 ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.topbar1 .navbar1 ul li a:hover,
+.topbar1 .navbar1 ul li a:active,
+.topbar1 .navbar1 ul li a:focus {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.topbar1 .navbar1 ul li.divider {
+    color: #ffffff;
+    font-size: 26px;
+    margin: 0px 20px;
+    width: auto;
+}
+
+.topbar1 .navbar1 button {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+    padding:  15px 25px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.topbar1 .navbar1 button:hover,
+.topbar1 .navbar1 button:active,
+.topbar1 .navbar1 button:focus {
+    background-color: #f2f2f2;
+}
+.playlist-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+
+.playlist-cover img {
+    width: 250px;
+    height: 250px;
+    box-shadow: 0px 2px 35px -1px rgba(0,0,0,0.45);
+-webkit-box-shadow: 0px 2px 35px -1px rgba(0,0,0,0.45);
+-moz-box-shadow: 0px 2px 35px -1px rgba(0,0,0,0.45);
+}
+ 
+.playlist-info {
+    color:white;
+    padding-left: 20px;
+}
+.playlist-public {
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "AvenirLTStd-Black";
+}
+.playlist-title {
+    font-size: 86px;
+    font-weight: 1000;
+
+    margin-top: 10px;
+    font-family: "AvenirLTStd-Black";
+}
+
+.playlist-description {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    color:#B5B5B5;
+}
+
+.playlist-stats  img{
+    position: relative;
+    top: 6px;
+}
+
+.playlist-buttons-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.playlist-buttons-resume-pause {
+    background-color: var(--spotify-green);
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playlist-buttons-like svg path{
+    fill: var(--spotify-green) ;
+}
+
+.playlist-buttons-like {
+    margin-left: 20px;
+}
+.playlist-songs-container {
+    height: 1000px;
+    padding: 20px;
+    background: rgb(17, 17, 17);
+}
+
+.playlist-buttons-three-dot {
+    margin-left: 20px;
+}
+ .playlist-buttons-three-dot svg path, .playlist-buttons-search svg path {
+    fill: #CACACA;
+}
+.playlist-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.playlist-songs {
+    margin-top: 20px;
+}
+
+.playlist-songs table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.playlist-songs table tr td, .playlist-songs table tr th {
+    padding: 10px;
+    color: #CACACA;
+}
+
+.playlist-songs table tr th {
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+.playlist-songs table tr:first-of-type {
+    border-bottom: 1px solid #CACACA;
+}
+
+.playlist-songs table th {
+    text-align: left;
+}
+
+.song-image img{
+    width: 60px;
+    height: 60px;
+}
+
+.song-title {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.song-name {
+    font-weight: 400;
+    font-size:15px;
+    color: white;
+}
+
+.song-name-artist {
+    padding-left: 15px;
+    letter-spacing: 0.5px;
+
+}
+.song-artist, .song-album, .song-date-added, .song-duration {
+    font-size: 15px;
+    margin-top: 6px;
+    color: #898989;
+}
+
+

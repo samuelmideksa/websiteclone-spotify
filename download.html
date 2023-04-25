@@ -1,174 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Windows Download - Spotify</title>
     <link rel="icon" type="image/x-icon" href="./images/spotify icon b.png">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!--header-->
-    <a href="index.html">
-        <img src="images/spotify logo.png" alt="Spotify">
-    </a>
 
-    <ul>
-        <li>
-            <a href="premium.html">Premium</a>
-        </li>
-        <li>
-            <a href="support.html" target="_blank">Support</a>
-        </li>
-        <li>
-            <a href="download.html" target="_blank">Download</a>
-        </li>
-        | <!--divider-->
-        <li>
-            <a href="signup.html">Sign up</a>
-        </li>
-        <li>
-            <a href="login.html"> Login</a>
-        </li>
-    </ul>
-    
+    <div class="topbar">
+        <div class="logodownload">
+            <a href="index.html">
+                <img src="./images/spotify logo.png" alt="Logo">
+            </a>
+        </div>
+
+        <div class="navbardownload">
+            <ul>
+                <li>
+                    <a href="premium.html" target="_blank">Premium</a>
+                </li>
+                <li>
+                    <a href="support.html" target="_blank">Support</a>
+                </li>
+                <li>
+                    <a href="download.html" target="_blank">Download</a>
+                </li>
+                <li class="divider">|</li>
+                <li>
+                    <a href="signup.html">Sign up</a>
+                </li>
+                <li>
+                    <a href="login.html">Login </a>
+                </li>
+            </ul>
+        </div>
+    </div>
 
     <!--main download-->
-    <h1>Download Spotify</h1>
-    <p>Play millions of songs on your device.</p>
-    <a href="/images/download/SpotifySetup.exe" download="spotifysetup.exe">
-        <button type="button">Download</button>
-    </a>
-    
+    <div class="dspotify">
+        <img src="./images/download/laptop.svg" alt="laptop" class="laptop"><br>
+        <h1 class="ds">Download Spotify</h1><br><br>
+        <p>Play millions of songs on your device.</p><br><br>
+        <a href="/images/download/SpotifySetup.exe" download="spotifysetup.exe">
+            <button type="button">Download</button>
+        </a>
+    </div>
     <!--main download options-->
-    <h2>Bring your music to mobile and tablet, too.</h2>
-    <p>Listening on your phone or tablet is free, easy, and fun.</p>
-    <a href="https://spotify.link/h5TbcGLLkhb?label=sp_cid%3A97cf5ddc-bfcb-49b4-82a0-6795d8a56aab">
-        <img src="images/download/app-store.svg" alt="Apple App Store">
-    </a>
-    <a href="https://spotify.link/T1vKH6Kr9ib?label=sp_cid%3A97cf5ddc-bfcb-49b4-82a0-6795d8a56aab">
-        <img src="images/download/google play store.png" alt="Google Play Store" width="116" height="40">
-    </a>
-    <a href="https://www.microsoft.com/store/p/spotify-music/9ncbcszsjrsb?cid=spotifyweb-windows10-store-direct">
-        <img src="images/download/microsoft store.png" alt="Microsoft Store">
-    </a>
-
-    <br>
+    <div class="doptions">
+        <h1>Bring your music to mobile and tablet, too.</h1><br>
+        <p>Listening on your phone or tablet is free, easy, and fun.</p><br><br>
+        <a href="https://spotify.link/h5TbcGLLkhb?label=sp_cid%3A97cf5ddc-bfcb-49b4-82a0-6795d8a56aab">
+            <img src="images/download/app-store.svg" alt="Apple App Store">
+        </a>
+        <a href="https://spotify.link/T1vKH6Kr9ib?label=sp_cid%3A97cf5ddc-bfcb-49b4-82a0-6795d8a56aab">
+            <img src="images/download/google play store.png" alt="Google Play Store" width="116" height="40">
+        </a>
+        <a href="https://www.microsoft.com/store/p/spotify-music/9ncbcszsjrsb?cid=spotifyweb-windows10-store-direct">
+            <img src="images/download/microsoft store.png" alt="Microsoft Store">
+        </a>
+    </div>
 
     <!--availability-->
-    <img src="./images/download/listen everywhere.png" alt="Available everywhere">
-    <p>One account, listen everywhere.</p>
+    <div class="davail">
+        <img src="./images/download/listen everywhere.png" alt="Available everywhere">
+        <h1>One account, listen everywhere.</h1><br><br>
 
-    <ul>
-        <li>MOBILE</li>
-        <li>COMPUTER</li>
-        <li>TABLET</li>
-        <a href="#">
-            <li>CAR</li>
-        </a>
-        <a href="#">
-            <li>PLAYSTATION&reg;</li>
-        </a>
-        <a href="#">
-            <li>XBOX</li>
-        </a>
-        <a href="#">
-            <li>TV</li>
-        </a>
-        <a href="#">
-            <li>SPEAKER</li>
-        </a>
-        <a href="#">
-            <li>WEB PLAYER</li>
-        </a>
-    </ul>
+        <ul class="horizontal">
+            <li>MOBILE</li>
+            <li>COMPUTER</li>
+            <li>TABLET</li>
+            <li><a href="#">CAR</a></li>
+            <li><a href="#">PLAYSTATION&reg;</a></li>
+            <li><a href="#">XBOX</a></li>
+            <li><a href="#">TV</a></li>
+            <li><a href="#">SPEAKER</a></li>
+            <li><a href="#">WEB PLAYER</a></li>
+        </ul>
 
+    </div>
     <!--footer-->
-    <a href="index.html">
-        <img src="./images/spotify logo b.png" alt="Spotify" width="220" height="90">
-    </a>
-    <ul>
-        <h6>COMPANY</h6>
-        <li>
-            <a href="#">About</a>
-        </li>
-        <li>
-            <a href="#">Jobs</a>
-        </li>
-        <li>
-            <a href="#">For the Record</a>
-        </li>
-    </ul>
-
-    <ul>
-        <h6>COMMUNITIES</h6>
-        <li>
-            <a href="#">For Artists</a>
-        </li>
-        <li>
-            <a href="#">Developers</a>
-        </li>
-        <li>
-            <a href="#">Advertising</a>
-        </li>
-        <li>
-            <a href="#">Investors</a>
-        </li>
-        <li>
-            <a href="#">Vendors</a>
-        </li>
-        
-    </ul>
-
-    <ul>
-        <h6>USEFUL LINKS</h6>
-        <li>
-            <a href="support.html">Support</a>
-        </li>
-        <li>
-            <a href="index.html">Web Player</a>
-        </li>
-        <li>
-            <a href="download.html">Free Mobile App</a>
-        </li>
-    </ul>
-    
-    <!--social media-->
-    <ul>
-        <li>
-            <a href="https://instagram.com/spotify">
-                <img src="images/instagram icon.svg" alt="Spotify's Instagram Page">
+    <div id="footer">
+        <div id="f1">
+            <a href="index.html">
+                <img src="./images/spotify logo.png" alt="Spotify" width="220" height="90">
             </a>
-        </li>
-        <li>
-            <a href="https://twitter.com/spotify">
-                <img src="images/twitter logo.svg" alt="Spotify's Twitter Page">
-            </a>
-        </li>
-        <li>
-            <a href="https://www.facebook.com/Spotify">
-                <img src="images/facebook icon.svg" alt="Spotify's Facebook Page">
-            </a>
-        </li>
-    </ul>
+        </div>
+        <div id="f2">
+            <ul>
+                <h6>COMPANY</h6>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Jobs</a>
+                </li>
+                <li>
+                    <a href="#">For the Record</a>
+                </li>
+            </ul>
+        </div>
+        <div id="f3">
+            <ul>
+                <h6>COMMUNITIES</h6>
+                <li>
+                    <a href="#">For Artists</a>
+                </li>
+                <li>
+                    <a href="#">Developers</a>
+                </li>
+                <li>
+                    <a href="#">Advertising</a>
+                </li>
+                <li>
+                    <a href="#">Investors</a>
+                </li>
+                <li>
+                    <a href="#">Vendors</a>
+                </li>
 
-    <ul>
-        <li>
-            <a href="#">Legal</a>
-        </li>
-        <li>
-            <a href="#">Privacy Policy</a>
-        </li>
-        <li>
-            <a href="#">Cookies</a>
-        </li>
-        <li>
-            <a href="#">About Ads</a>
-        </li>
-    </ul>
+            </ul>
+        </div>
+        <div id="f4">
+            <ul>
+                <h6>USEFUL LINKS</h6>
+                <li>
+                    <a href="support.html">Support</a>
+                </li>
+                <li>
+                    <a href="index.html">Web Player</a>
+                </li>
+                <li>
+                    <a href="download.html">Free Mobile App</a>
+                </li>
+            </ul>
+        </div>
+        <div id="f5">
+            <!--social media-->
+            <ul>
+                <li>
+                    <a href="https://instagram.com/spotify">
+                        <img src="images/instagram icon.svg" alt="Spotify's Instagram Page">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/spotify">
+                        <img src="images/twitter logo.svg" alt="Spotify's Twitter Page">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/Spotify">
+                        <img src="images/facebook icon.svg" alt="Spotify's Facebook Page">
+                    </a>
+                </li>
+            </ul>
+        </div>
 
-    <!--copyright-->
-    <img src="images/earth icon.png"> Ethiopia (English)
-    &copy; 2023 Spotify AB
+        <div id="f6">
+            <ul>
+                <li>
+                    <a href="#">Legal</a>
+                </li>
+                <li>
+                    <a href="#">Privacy</a>
+                </li>
+                <li>
+                    <a href="#">Cookies</a>
+                </li>
+                <li>
+                    <a href="#">Ads</a>
+                </li>
+            </ul>
+        </div>
+
+        <div id="f7">
+            <!--copyright-->
+            <ul>
+                <li> Ethiopia (English)</li><br>
+                <li> &copy; 2023 Spotify AB</li>
+            </ul>
+        </div>
+    </div>
 </body>
+
 </html>

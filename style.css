@@ -31,10 +31,12 @@
     padding: 0;
     margin: 0;
 }
+
 body {
     background-color: #121212;
     font-family: 'Circular Spotify Text', sans-serif;
 }
+
 .sidebar {
     position: fixed;
     left: 0;
@@ -44,40 +46,47 @@ body {
     background-color: #000000;
     padding: 24px;
 }
+
 .sidebar .logo img {
     width: 130px;
 }
+
 .sidebar .navigation ul {
     list-style: none;
     margin-top: 20px;
 }
+
 .sidebar .navigation ul li {
     padding: 10px 0px;
 }
+
 .sidebar .navigation ul li a {
     color: #b3b3b3;
     text-decoration: none;
     font-weight: bold;
     font-size: 13px;
 }
+
 .sidebar .navigation ul li a:hover,
 .sidebar .navigation ul li a:active,
 .sidebar .navigation ul li a:focus {
     color: #ffffff;
 }
 
-/* styling for fa remaining */
 
 .sidebar .policies {
     position: absolute;
     bottom: 100px;
 }
+
 .sidebar .policies ul {
     padding-bottom: 5px;
 }
+
 .sidebar .policies ul li {
     padding-bottom: 5px;
 }
+
 .sidebar .policies ul li a {
     color: #b3b3b3;
     font-weight: 500;
@@ -95,15 +104,17 @@ body {
     margin-left: 245px;
     margin-bottom: 100px;
 }
+
 .topbar {
     display: flex;
     justify-content: space-between;
     background-color: #101010;
     padding: 14px 30px;
 }
+
 .topbar .previous-next-buttons button {
     color: #7a7a7a;
-    
+    cursor: not-allowed;
     width: 34px;
     height: 34px;
     border-radius: 100%;
@@ -111,6 +122,7 @@ body {
     background-color: #090909;
     margin-right: 10px;
 }
+
 .topbar .navbar {
     display: flex;
     align-items: center;
@@ -167,15 +179,166 @@ body {
 }
 
 
+
+/*PLAYLIST SECTION*/
+body {
+    background-color: #121212;
+    font-family: 'Circular Spotify Text', sans-serif;
+}
+
+.sidebar1 {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 196px;
+    background-color: #000000;
+    padding: 24px;
+}
+
+.sidebar1 .logo img {
+    width: 130px;
+}
+
+.sidebar1 .navigation1 ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.sidebar1 .navigation1 ul li {
+    padding: 10px 0px;
+}
+
+.sidebar1 .navigation1 ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.sidebar1 .navigation1 ul li a:hover,
+.sidebar1 .navigation1 ul li a:active,
+.sidebar1 .navigation1 ul li a:focus {
+    color: #ffffff;
+}
+
+
+
+.sidebar1 .policies1 {
+    position: absolute;
+    bottom: 100px;
+}
+
+.sidebar1 .policies1 ul {
+    padding-bottom: 5px;
+}
+
+.sidebar1 .policies1 ul li {
+    padding-bottom: 5px;
+}
+
+.sidebar1 .policies1 ul li a {
+    color: #b3b3b3;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.sidebar1 .policies1 ul li a:hover,
+.sidebar1 .policies1 ul li a:active,
+.sidebar1 .policies1 ul li a:focus {
+    text-decoration: underline;
+}
+
+.main-container1 {
+    margin-left: 245px;
+    margin-bottom: 100px;
+}
+
+.topbar1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #101010;
+    padding: 14px 30px;
+}
+
+.topbar1 .previous-next-buttons1 button {
+    color: #7a7a7a;
+    cursor: not-allowed;
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    font-size: 18px;
+    background-color: #090909;
+    margin-right: 10px;
+}
+
+.topbar1 .navbar1 {
+    display: flex;
+    align-items: center;
+}
+
+.topbar1 .navbar1 ul {
+    list-style: none;
+}
+
+.topbar1 .navbar1 ul li {
+    display: inline-block;
+    margin: 0px 8px;
+    width: 70px;
+}
+
+.topbar1 .navbar1 ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.topbar1 .navbar1 ul li a:hover,
+.topbar1 .navbar1 ul li a:active,
+.topbar1 .navbar1 ul li a:focus {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.topbar1 .navbar1 ul li.divider {
+    color: #ffffff;
+    font-size: 26px;
+    margin: 0px 20px;
+    width: auto;
+}
+
+.topbar1 .navbar1 button {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 14px 23px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.topbar1 .navbar1 button:hover,
+.topbar1 .navbar1 button:active,
+.topbar1 .navbar1 button:focus {
+    background-color: #f2f2f2;
+}
+
 .spotify-playlists .show-more {
     margin-right: 10px;
     float: right;
 }
+
 .spotify-playlists .show-more a {
     color: #b3b3b3;
     font-size: 14px;
     text-decoration: none;
 }
+
 .spotify-playlists .show-more a:hover,
 .spotify-playlists .show-more a:active,
 .spotify-playlists .show-more a:focus {
@@ -292,4 +455,402 @@ body {
     border: 0px;
     border-radius: 40px;
     cursor: pointer;
+}
+
+
+/* download section*/
+
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #101010;
+    padding: 14px 30px;
+}
+
+
+.logodownload img {
+    width: 130px;
+}
+
+.topbar .navbardownload {
+    display: flex;
+    align-items: center;
+}
+
+.topbar .navbardownload ul {
+    list-style: none;
+}
+
+.topbar .navbardownload ul li {
+    display: inline-block;
+    margin: 0px 8px;
+    width: 70px;
+}
+
+.topbar .navbardownload ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.topbar .navbardownload ul li a:hover,
+.topbar .navbardownload ul li a:active,
+.topbar .navbardownload ul li a:focus {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.topbar .navbardownload ul li.divider {
+    color: #ffffff;
+    font-size: 26px;
+    margin: 0px 20px;
+    width: auto;
+}
+
+
+
+.dspotify {
+    background-color: #19e68c;
+    text-align: center;
+    padding: 80px;
+
+}
+
+.dspotify .laptop {
+    width: 150px;
+    height: 150px;
+
+}
+
+.dspotify .ds {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.dspotify button {
+    background-color: rgb(246, 247, 246);
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 23px;
+    border: 0px;
+    border-radius: 40px;
+}
+
+.doptions {
+    background-color: white;
+    text-align: center;
+    padding: 130px;
+}
+
+.davail {
+    background-color: #222326;
+    text-align: center;
+    color: white;
+    writing-mode: horizontal-tb;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+}
+
+.horizontal li {
+    display: inline;
+    padding-right: 40px;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+#footer {
+    background-color: black;
+    color: grey;
+    padding: 50px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+}
+
+#footer li {
+    list-style-type: none;
+    line-height: 2;
+}
+
+#f1 {
+    width: 200px;
+}
+
+#f1 img {
+    width: 150px;
+    height: auto;
+}
+
+#f2,
+#f3,
+#f4,
+#f5,
+#f6 {
+    width: calc(20% - 20px);
+    margin-top: 20px;
+}
+
+#f5 ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#f5 li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#f5 li:last-child {
+    margin-right: 0;
+}
+
+#f5 a {
+    color: #fff;
+}
+
+#f5 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: white;
+}
+
+#f5 img:hover {
+    background-color: #19e68c;
+}
+
+#f6 {
+    margin: 0 10px;
+    float: left;
+}
+
+#f6 ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#f6 li a {
+    margin-bottom: 10px;
+    color: grey;
+    font-size: smaller;
+    padding: 0 20px;
+}
+
+#f7 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0 50px 0 50px;
+}
+
+#f7 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#f7 li {
+    margin-bottom: 0px;
+}
+
+#f2 a:link,
+#f2 a:active,
+#f2 a:visited,
+#f3 a:link,
+#f3 a:active,
+#f3 a:visited,
+#f4 a:link,
+#f4 a:active,
+#f4 a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+#f6 a:link,
+#f6 a:active,
+#f6 a:visited {
+    text-decoration: none;
+}
+
+#footer a:hover {
+    color: #19e68c;
+}
+
+
+/* Adjust padding for even larger screens */
+@media screen and (max-width: 900px) {
+    #footer {
+        display: block;
+        flex-wrap: nowrap;
+    }
+
+    #f7 {
+        position: unset;
+        margin-top: 30px;
+    }
+
+    #f5 {
+        margin-left: 50px;
+        padding-left: 50px;
+    }
+}
+
+
+
+/* PREMIUM SECTION*/
+
+
+#section1 {
+    background-color: #1d75de;
+    color: white;
+    text-align: left;
+    padding: 100px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#section1 button {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 40px 60px;
+    border: 0px;
+    border-radius: 70px;
+    font-size: 25px;
+}
+
+.section2 {
+    background-color: white;
+
+    padding: 100px;
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.title {
+    background-color: white;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 65px;
+    font-weight: 800;
+
+
+}
+
+
+.section2 .dfree {
+    padding: 90px;
+    background-color: white;
+    text-align: center;
+}
+
+
+.section2 .dfree img {
+    width: 200px;
+    margin-bottom: 10px;
+
+}
+
+
+
+.section2 .dfree h3 {
+    color: #020202;
+    font-size: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.section2 .dfree p {
+    color: #0c0c0c;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.section3 {
+    background-color: #EFEFEF;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.section3 h1 {
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.plans {
+    display: inline-table;
+    width: 40%;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: left;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 15px 10px rgba(59, 52, 52, 0.1);
+}
+
+
+.plans h3 {
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.plans h4 {
+    font-size: 22px;
+    color: white;
+    margin-bottom: 20px;
+    background: #1d75de;
+    padding: 10px;
+    border-radius: 15px;
+    height: 25px;
+    width: 150px;
+}
+
+.plans p {
+    font-size: 25px;
+
+}
+
+.plans ul {
+    list-style-type: disc;
+    font-size: 25px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.plans li {
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #1a1919;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 25px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #000000;
+    color: #fff;
 }
