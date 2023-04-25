@@ -1,4 +1,4 @@
-/* Style sheet for index, focus, spotify-playlists pages*/
+/* Style sheet for index, focus, spotify-playlists and search pages*/
 
 
 * {
@@ -836,4 +836,316 @@ body {
 .btn:hover {
     background-color: #000000;
     color: #fff;
+}
+
+/*search page grid layout*/
+.browser {
+    color: rgb(255, 255, 255);
+    padding: 300px;
+    padding-top: 0%;
+}
+
+.searchbar {
+    align-self: center;
+
+}
+
+.item-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.item-container>div {
+    font-size: 30px;
+    height: 200px;
+    width: 200px;
+    border-radius: 5%;
+    text-align: left;
+    background-image: url("websiteclone-spotify/images/personpic.jpeg");
+
+}
+
+.listnumber1 {
+    background-color: #8e5959;
+    background-image: url("./images/playlists/kendrick lamar.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+}
+
+.listnumber2 {
+    background-color: #833775;
+    background-image: url("./images/playlists/kendrick lamar.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+}
+
+.listnumber3 {
+    background-color: #5e1515;
+    background-image: url("./images/playlists/kendrick lamar.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+
+}
+
+.istnumber4 {
+    background-color: rgb(59, 224, 180);
+    background-image: url("./images/playlists/kendrick lamar.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+
+}
+
+.listnumber5 {
+    background-color: rgb(190, 254, 121);
+    background-image: url("./images/playlists/kendrick lamar.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+}
+
+.listnumber6 {
+    background-color: rgb(14, 86, 210);
+    background-image: url("./images/playlists/kendrick lamar.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+}
+
+.listnumber7 {
+    background-color: rgb(75, 2, 73);
+    background-image: url("./images/playlists/kendrick lamar.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+}
+
+.listnumber8 {
+    background-color: rgb(149, 101, 127);
+    background-image: url("./images/playlists/kendrick lamar.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+}
+
+.listnumber9 {
+    background-color: rgb(156, 94, 74);
+    background-image: url("./images/playlists/kendrick lamar.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+}
+
+.listnumber10 {
+    background-color: rgb(95, 75, 155);
+    background-image: url("./images/playlists/kendrick lamar.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+}
+
+.listnumber11 {
+    background-color: rgb(84, 84, 4);
+    background-image: url("./images/playlists/kendrick lamar.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+}
+
+.listnumber12 {
+    background-color: rgb(46, 160, 168);
+    background-image: url("./images/playlists/kendrick lamar.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+}
+
+.listnumber13 {
+    background-color: rgb(44, 185, 121);
+    background-image: url("./images/playlists/kendrick lamar.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+}
+
+.listnumber14 {
+    background-color: rgb(212, 27, 101);
+    background-image: url("./images/playlists/kendrick lamar.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+}
+
+.listnumber15 {
+    background-color: rgb(54, 122, 23);
+    background-image: url("./images/playlists/kendrick lamar.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+}
+
+.listnumber16 {
+    background-color: rgb(210, 169, 65);
+    background-image: url("./images/playlists/kendrick lamar.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+}
+
+.listnumber17 {
+    background-color: rgb(124, 236, 120);
+    background-image: url("./images/playlists/kendrick lamar.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+}
+
+.listnumber18 {
+    background-color: rgb(52, 147, 47);
+    background-image: url("./images/playlists/kendrick lamar.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+}
+
+.listnumber19 {
+    background-color: rgb(100, 103, 161);
+    background-image: url("./images/playlists/kendrick lamar.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+}
+
+.listnumber20 {
+    background-color: rgb(124, 31, 115);
+    background-image: url("./images/playlists/kendrick lamar.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+}
+
+.listnumber21 {
+    background-color: rgb(107, 107, 19);
+    background-image: url("./images/playlists/kendrick lamar.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+}
+
+.listnumber22 {
+    background-color: rgb(185, 185, 44);
+    background-image: url("./images/playlists/kendrick lamar.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+}
+
+.listnumber23 {
+    background-color: rgb(151, 151, 94);
+    background-image: url("./images/playlists/kendrick lamar.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+}
+
+.listnumber24 {
+    background-color: rgb(185, 185, 44);
+    background-image: url("./images/playlists/kendrick lamar.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+}
+
+.listnumber25 {
+    background-color: rgb(163, 39, 39);
+    background-image: url("./images/playlists/kendrick lamar.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+}
+
+.listnumber26 {
+    background-color: rgb(255, 131, 230);
+    background-image: url("./images/playlists/kendrick lamar.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+}
+
+.listnumber27 {
+    background-color: rgb(87, 121, 255);
+    background-image: url("./images/playlists/kendrick lamar.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+}
+
+.listnumber28 {
+    background-color: rgb(127, 81, 147);
+    background-image: url("./images/playlists/kendrick lamar.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+
+}
+
+.listnumber29 {
+    background-color: rgb(123, 231, 229);
+    background-image: url("./images/playlists/kendrick lamar.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+}
+
+.listnumber30 {
+    background-color: rgb(147, 147, 94);
+    background-image: url("./images/playlists/kendrick lamar.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+}
+
+.listnumber31 {
+    background-color: rgb(200, 114, 60);
+    background-image: url("./images/playlists/kendrick lamar.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+}
+
+.listnumber32 {
+    background-color: rgb(68, 166, 211);
+    background-image: url("./images/playlists/kendrick lamar.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+}
+
+.listnumber33 {
+    background-color: rgb(207, 207, 105);
+    background-image: url("./images/playlists/kendrick lamar.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+}
+
+.listnumber34 {
+    background-color: rgb(96, 238, 132);
+    background-image: url("./images/playlists/kendrick lamar.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+}
+
+.listnumber35 {
+    background-color: rgb(88, 69, 211);
+    background-image: url("./images/playlists/kendrick lamar.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
 }
