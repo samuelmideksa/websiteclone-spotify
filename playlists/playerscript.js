@@ -1,5 +1,6 @@
 const playerAudio = document.getElementById('player-audio');
-const playerPlayBtn = document.getElementById('player-play');const playerPrevBtn = document.getElementById('player-prev');
+const playerPlayBtn = document.getElementById('player-play');
+const playerPrevBtn = document.getElementById('player-prev');
 const playerPlayIcon = document.querySelector('.player-icon-play');
 const playerPauseIcon = document.querySelector('.player-icon-pause');
 const playerNextBtn = document.getElementById('player-next');
@@ -26,7 +27,8 @@ const songs = [
     {albumArt: '../images/playlists/piano.jpg',artist: 'Klur',name: 'Entangled',src: '../music/9. MR. MIYAGI.mp3'},
     {albumArt: '../images/playlists/piano.jpg',artist: 'Listening Wind',name: 'Peaceful Thoughts',src: '../music/First Time In a Long Time.mp3'},
     {albumArt: '../images/playlists/piano.jpg',artist: 'Constance Lucas',name: 'Open to return',src: '../music/Bet Lost.mp3'},
-    {albumArt: '../images/playlists/piano.jpg',artist: 'Josef De Schutter',name: 'Lyrides',src: '../music/Security.mp3'}];
+    {albumArt: '../images/playlists/piano.jpg',artist: 'Josef De Schutter',name: 'Lyrides',src: '../music/Security.mp3'}
+];
 
 function loadSong() {
 	playerAlbumArt.src = songs[currentSong].albumArt;

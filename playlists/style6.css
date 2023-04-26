@@ -112,7 +112,9 @@ body {
     font-size: 14px;
     letter-spacing: 1px;
 }
-
+.policies1 {
+    display: none;
+}
 .topbar1 .navbar1 ul li a:hover,
 .topbar1 .navbar1 ul li a:active,
 .topbar1 .navbar1 ul li a:focus {
